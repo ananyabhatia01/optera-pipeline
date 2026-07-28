@@ -1,12 +1,4 @@
-"""
-Cost + accuracy logging. This is the artifact the assessment explicitly asks
-for: "your numbers ... with the token/cost log that proves them."
 
-Every API call (router or extractor) writes one row here. Nothing is
-estimated after the fact -- costs are computed directly from the token
-counts each provider returns with its response, multiplied by the pricing
-table in config.py.
-"""
 
 import csv
 import json
