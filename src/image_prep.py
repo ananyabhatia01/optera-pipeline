@@ -1,16 +1,4 @@
-"""
-Image preprocessing for the optimized pipeline.
 
-Real phone photos in this dataset range from ~700px to ~4000px on the long
-edge. Gemini (like most multimodal APIs) tokenizes images by tile/resolution,
-so a 4000px photo costs meaningfully more than a 1280px one for the *same*
-extractable content -- the handwriting doesn't get more legible past a certain
-resolution, the bill just gets more expensive.
-
-The baseline pipeline intentionally skips this step (sends the original file)
-because that's what "naive, one call per image" means. This module is only
-used by the optimized pipeline.
-"""
 
 import io
 from PIL import Image
