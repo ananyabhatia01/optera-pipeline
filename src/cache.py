@@ -1,10 +1,4 @@
-"""
-Content-hash cache: if the exact same image bytes come through twice (a real
-scenario -- WhatsApp resends, clients re-uploading the same photo), we should
-never pay for the same extraction twice. Keyed on sha256 of the resized image
-bytes actually sent to the model, so a cache hit means "we would have sent
-literally the same request."
-"""
+
 
 import hashlib
 import json
