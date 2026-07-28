@@ -99,21 +99,46 @@ automated scorer — see DESIGN.md for why.
 ## Repo layout
 
 ```
-main.py                    CLI entrypoint
-src/
-  config.py                model names, pricing table, thresholds
-  schema.py                canonical doc_type schemas + validation
-  prompts.py                baseline (universal) vs targeted prompts
-  image_prep.py              resize/compress logic
-  ollama_router.py            free local classifier
-  gemini_client.py             Gemini REST API wrapper
-  cache.py                     content-hash extraction cache
-  cost_logger.py                per-call cost tracking + summary
-  pipeline.py                    orchestrates baseline + optimized runs
-eval/
-  accuracy.py                 field-level accuracy scorer
-  ground_truth_template.json   format for hand-labeled truth
-tests/
-  test_pipeline_logic.py       mocked end-to-end test (no API calls, no cost)
-DESIGN.md                    what was built, what breaks, what's next
+optera-pipeline/
+├── main.py                     # CLI entry point
+├── DESIGN.md                   # Architecture, design decisions, limitations, roadmap
+├── README.md                   # Project overview and usage
+├── requirements.txt            # Python dependencies
+├── .gitignore
+├── LICENSE
+│
+├── src/
+│   ├── __init__.py
+│   ├── config.py               # Model configuration, pricing, thresholds
+│   ├── schema.py               # Canonical document schemas and validation
+│   ├── prompts.py              # Baseline and targeted prompts
+│   ├── image_prep.py           # Image resize/compression utilities
+│   ├── ollama_router.py        # Local document classifier
+│   ├── gemini_client.py        # Gemini REST API wrapper
+│   ├── cache.py                # Content-hash extraction cache
+│   ├── cost_logger.py          # API cost tracking and summaries
+│   └── pipeline.py             # End-to-end extraction pipeline
+│
+├── eval/
+│   ├── accuracy.py             # Field-level evaluation metrics
+│   └── ground_truth_template.json
+│
+├── tests/
+│   ├── __init__.py
+│   └── test_pipeline_logic.py  # Mocked end-to-end tests (no API calls)
+│
+├── data/
+│   ├── input/                  # Sample documents
+│   ├── output/                 # Extraction results
+│   └── cache/                  # Cached responses (optional)
+│
+├── docs/
+│   ├── architecture.md
+│   ├── pipeline.md
+│   └── api.md
+│
+└── examples/
+    ├── sample_invoice.jpg
+    ├── sample_receipt.jpg
+    └── sample_run.py
 ```
