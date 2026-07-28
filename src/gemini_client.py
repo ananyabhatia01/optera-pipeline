@@ -1,11 +1,3 @@
-"""
-Thin wrapper around the Gemini Developer API's REST endpoint (no SDK
-dependency, just `requests`, to keep install friction low).
-
-Every call returns real token counts from the API's own usageMetadata --
-we never estimate tokens ourselves. That's the whole point of the cost log:
-the numbers have to be provable, not guessed.
-"""
 
 import base64
 import json
