@@ -1,23 +1,4 @@
-#!/usr/bin/env python3
-"""
-Field-level accuracy evaluation against a small hand-labeled ground truth set.
 
-Why hand-labeled and small: the assessment gives no ground truth, and this is
-real, unlabelled, sometimes-illegible handwritten data -- there's no honest
-way to claim an accuracy number without a human actually reading a subset of
-the images first. This script assumes you (or a teammate) manually filled in
-eval/ground_truth.json for a handful of images (see ground_truth_template.json),
-and compares both pipelines' extractions against that.
-
-This deliberately does NOT try to be a fully automated eval -- for messy real
-documents, field-level string match against hand-transcribed truth is more
-honest than a fuzzy scorer that quietly hides disagreement.
-
-Usage:
-    python eval/accuracy.py --ground-truth eval/ground_truth.json \
-        --baseline results/baseline_extractions.json \
-        --optimized results/optimized_extractions.json
-"""
 
 import argparse
 import json
