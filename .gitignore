@@ -1,0 +1,7 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+results/
+tests/_tmp_images/
+tests/_tmp_results/

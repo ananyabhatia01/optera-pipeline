@@ -1,0 +1,95 @@
+{
+  "optera_doc_01.jpg": {
+    "doc_type": "mechanic_log",
+    "vehicle_code": "TCM 28, 35, 39, 30 / TCM 21 / TOM 36 / TOM 4 / TOM 6",
+    "date": "7/6/26",
+    "mechanic_name": "Kamlesh / Pathak",
+    "work_description": "Vadaj Work Report: general checks, coolant changes, oil/filter work, battery/relay, wiper/horn maintenance across multiple vehicles"
+  },
+  "optera_doc_04.jpg": {
+    "doc_type": "mechanic_log",
+    "vehicle_code": "TAM17, MAM44, TCM48, MAM21, TAM24, TAM21, TAM23, MAM42",
+    "date": "10-06-2026",
+    "mechanic_name": null,
+    "work_description": "Paldi work report: axle packing change, water pump/fan belt replacement, reverse gear cable change, radiator/coolant service, wheel service, air compressor ring change, steering oil top-up"
+  },
+  "optera_doc_06.jpg": {
+    "doc_type": "mechanic_log",
+    "vehicle_code": "TCM-2, TAM-85, TCM-57, TOM-37, TCM-46, TOM-31, TOM-13, TCM-31",
+    "date": "10/6/26",
+    "mechanic_name": null,
+    "work_description": "Sarangpur work report: engine/radiator checks, oil top-ups, coolant changes, bolt replacements"
+  },
+  "optera_doc_08.jpg": {
+    "doc_type": "mechanic_log",
+    "vehicle_code": "MAC31, TAM25, TCM48, TAM23, MAM42, TCM52, MAM16, TCM47, TAM23, TCM48",
+    "date": "12-06-2026",
+    "mechanic_name": null,
+    "work_description": "Paldi work report: AC blower motor fitment, battery checks, spark plug/ignition coil service, headlight bulb replacement, clutch/gear oiling, hose clip changes, turbo coolant hose repairs"
+  },
+  "optera_doc_10.jpg": {
+    "doc_type": "mechanic_log",
+    "vehicle_code": "TAM23, MAM38, TCM47, TAM12, TCM54, TCM60, MAM15, TCM52, TAM25, TCM60, MAM15",
+    "date": "13-06-2026",
+    "mechanic_name": null,
+    "work_description": "Paldi work report: axle packing, wheel brake set work, steering pipe/pump pipe change, turbo coolant hose replacement, hand brake work, radiator/turbo hose change, engine oil top-up, grip handle changes"
+  },
+  "optera_doc_12.jpg": {
+    "doc_type": "mechanic_log",
+    "vehicle_code": "TAM7, 8, 9, 9, 7, 56, 45, 61, MAM41, TAM28, 8",
+    "date": null,
+    "mechanic_name": "Keshaw/Lala",
+    "work_description": "General checkups, clutch oil changes, engine oil top-ups, coolant top-ups, steering oil top-ups across multiple buses"
+  },
+  "optera_doc_14.jpg": {
+    "doc_type": "mechanic_log",
+    "vehicle_code": "TCM-06, TCM-64, MAM43, TCM47, MAM19, MAM21, TAM26, TAM24, MAM18, TAM12",
+    "date": "14/06/2026",
+    "mechanic_name": null,
+    "work_description": "Paldi work report: brake setting, clutch plate assembly, battery/alternator checks, cabin fan repairs, spark plug/headlight bulb changes, throttle body change, starter motor repair, fan wiring repairs"
+  },
+  "optera_doc_27.jpg": {
+    "doc_type": "vendor_bill",
+    "vendor_name": "KIRAN GREASING SERVICE",
+    "vehicle_no": "GJ-06-AV-4045",
+    "total_amount": "200"
+  },
+  "optera_doc_28.jpg": {
+    "doc_type": "vendor_bill",
+    "vendor_name": "TIWARI AUTO PARTS",
+    "vehicle_no": "GJ16AV 9065",
+    "total_amount": "1750"
+  },
+  "optera_doc_30.jpg": {
+    "doc_type": "vendor_bill",
+    "vendor_name": "SHIV SHAKTI MOTORS",
+    "vehicle_no": "GJ05AU4001",
+    "total_amount": "2000.00"
+  },
+  "optera_doc_43.jpg": {
+    "doc_type": "vendor_bill",
+    "vendor_name": "JAVID SABIRBHAI SUNASARA",
+    "vehicle_no": "GJ 16 AY 4825",
+    "total_amount": "2358.00"
+  },
+  "optera_doc_34.jpg": {
+    "doc_type": "rejected",
+    "reason": "photo of a damaged tyre/inner flap, not a document"
+  },
+  "optera_doc_36.jpg": {
+    "doc_type": "rejected",
+    "reason": "photo of a tyre, not a document"
+  },
+  "optera_doc_38.jpg": {
+    "doc_type": "meter_reading",
+    "reading_type": "odometer",
+    "value": "32065.4",
+    "unit": "km"
+  },
+  "optera_doc_42.jpg": {
+    "doc_type": "meter_reading",
+    "reading_type": "odometer",
+    "value": "37057.9",
+    "unit": "km"
+  }
+}

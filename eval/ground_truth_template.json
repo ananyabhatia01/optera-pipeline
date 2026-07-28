@@ -1,0 +1,11 @@
+{
+  "_instructions": "Pick ~10-15 of the 47 sample images spanning all 4 categories. Open each one, read it yourself, and fill in the true values below by hand. This becomes your accuracy ground truth -- comparing baseline vs optimized extractions against what a human actually sees. Leave a field null if illegible even to you. Delete this _instructions key before running eval, or leave it -- the eval script ignores keys starting with _.",
+
+  "optera_doc_01.jpg": {
+    "doc_type": "mechanic_log",
+    "vehicle_code": null,
+    "date": null,
+    "mechanic_name": null,
+    "work_description": null
+  }
+}
