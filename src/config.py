@@ -1,15 +1,4 @@
-"""
-Central configuration: model names, pricing, thresholds.
 
-PRICING NOTE (read this before trusting the cost numbers):
-Prices below are Gemini Developer API list prices, USD per 1M tokens,
-checked July 2026 against https://ai.google.dev/gemini-api/docs/pricing
-Gemini 2.0 Flash / Flash-Lite were shut down 1 June 2026 -- do not use them.
-Gemini 2.5 Flash-Lite / Flash / Pro are the current stable tier as of this
-writing but are scheduled for retirement 16 Oct 2026 per Google's docs.
-If you run this after that date, re-check pricing and update this table --
-the cost math is only as honest as this table is current.
-"""
 
 # (input_price_per_1M_tokens, output_price_per_1M_tokens) in USD
 MODEL_PRICING = {
